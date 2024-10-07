@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: accessmysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: secret
+    url: jdbc:mysql://localhost:4404/sharedb
+    username: bob
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
